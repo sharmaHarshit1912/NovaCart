@@ -5,12 +5,12 @@ const NavBar = () => {
     <>
       <div className="bg-black p-4 w-full ">
         <h3 className="text-white font-inter font-bold tracking-normal leading-none text-center text-xl">
-          WELCOME TO THE NOVASTORE
+          WELCOME TO THE NOVA-CART
         </h3>
       </div>
-      <div className="flex justify-around items-center ">
-        <img className="h-20 max-w-full" src={logo} alt="store"></img>
-        <div className="flex flex-row items-center">
+      <div className="flex justify-between items-center ">
+        <img className="ml-10 h-20 max-w-full" src={logo} alt="store"></img>
+        <div className="flex flex-row items-center mr-20">
           <button className="mr-2  font-inter font-medium tracking-normal leading-none text-center text-base px-3 border-2 py-2 border-black bg-black text-white hover:bg-white hover:text-black hover:font-medium rounded-md ">
             Logout
           </button>
